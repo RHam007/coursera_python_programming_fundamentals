@@ -1,7 +1,7 @@
 books = ["The Hitchhiker's Guide to the Galaxy", "Pride and Prejudice", "To Kill a Mockingbird"]
 status = ["available", "available", "checked out"]
 
-#for book in range(min(len(books), len(status))):
+#for book in range(min(len(books), len(status))): #simple list read with title and status printing
 #    print(books[book], status[book])
 
 for book in range(min(len(books), len(status))):
