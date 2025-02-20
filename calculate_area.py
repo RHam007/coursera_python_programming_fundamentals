@@ -1,4 +1,4 @@
-# Collection of simple functions
+# Simple area calculator for rectangles
 
 def calculate_area(length, width):
     """This function calculates a rectangle's area by multiplying the length by the width"""
