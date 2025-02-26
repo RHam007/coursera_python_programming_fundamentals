@@ -4,7 +4,7 @@
 def add_item_to_cart(item):
     shopping_cart.append(item)
     for item in shopping_cart:
-        print(item)
+        print(item, "- Added")
     return
 
 item = add_item_to_cart(input("Add which item?: "))"""
