@@ -11,15 +11,15 @@ item = add_item_to_cart(input("Add which item?: "))"""
 
 # What the worksheet wants:
 
-"""shopping_cart = []
-def add_item_to_cart():
-    shopping_cart.append()
+shopping_cart = []
+def add_item_to_cart(item):
+    shopping_cart.append(item)
     return
 
-shopping_cart.append("apple")
-shopping_cart.append("banana")
-shopping_cart.append("milk")
+add_item_to_cart("apple")
+add_item_to_cart("banana")
+add_item_to_cart("milk")
 
 print("Shopping Cart:")
 for item in shopping_cart:
-    print(item)"""
+    print(item)
