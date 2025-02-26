@@ -7,7 +7,15 @@ def add_item_to_cart(item):
         print(item, "- Added")
     return
 
-item = add_item_to_cart(input("Add which item?: "))"""
+def display_cart_list():
+    print("Shopping Cart:")    
+    for item in shopping_cart:
+        print(item)
+    return
+
+item = add_item_to_cart(input("Add which item?: "))
+display_cart_list()
+"""
 
 # What the worksheet wants:
 
