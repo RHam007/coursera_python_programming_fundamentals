@@ -1,6 +1,6 @@
 # Function returns a specific city's population
 """
-This function searches a hardcoded dictionary looking for the city key to return the poopulation value
+This function searches a hardcoded dictionary looking for the city key to return the population value
 
 variables:
     - city_populations: dictionary containing city(key):populatio(value)
