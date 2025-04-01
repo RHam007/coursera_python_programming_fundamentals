@@ -8,7 +8,7 @@ This program imports specific modules from the sklearn library to demonstrate a 
 uses the imported dataset "load_iris" as its data source, and performs a simple machine learning model training process to compare the
 test dataset to the model's prediction.
 
-Expected out put is a simple string reporting the model's level of accuracy.
+Expected output is a simple string reporting the model's level of accuracy. (example: >>> "Accuracy: 1.0")
 
 Noted possible issue(s):
  - Depending on the user's IDE, the sklearn library may not import correctly
